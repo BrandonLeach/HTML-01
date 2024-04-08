@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    
+    <nav>
+        Logo
+        <a href="/index.html">HOME</a>
+    </nav>
+    
+    <main>
+<section>
+
+
+</div>
+<div>
+    <h1>To Do List</h1>
+    <p>Lets Get this stuf done</p>
+    <img src="https://www.google.com/logos/doodles/2024/solar-eclipse-2024-6753651837110497.2-s.png" alt="">
+<ul>
+    <img src="../ASSITS/DashBoard/HTML Practise Assets/discord.png" alt="">
+    <img src="test/about.jpg" alt="">
+    <li>Land $110k job</li>
+    <li>Finish Frontned Simplified</li>
+    <li>Network with other people in Discord Server</li>
+</ul>
+</section>
+    
+</section>
+<h1>Land 110k job</h1>
+<ol>
+    <li>Finish Frontrend Simplified</li>
+    <Li>Study for interivews</Li>
+    <Li>Apply to jobs</Li>
+    <section>
+
+</ol>
+</div>
+</main>
+
+<footer>Copywrite</footer>
+</body>
+
+</html>
