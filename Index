@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandon HTML </title>
+</head>
+<body>
+    <h1>Brandon </h1> 
+   <h2>Frontend</h2>
+<p>Hello! <I>Brandon Leach</I> </p>
+<button>321</button>
+<b>Bold</b>
+<div>
+    
+    <B>Bold</B>
+
+
+</div>
+<a href="http://discord.gg/frontend" target="_blankl">Discord Server</a>
+<div>
+    
+    <a href="/Dashboard.html"target=-_blank>Dashboard</a>
+
+</body>
+</html>
