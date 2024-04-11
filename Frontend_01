@@ -1,0 +1,315 @@
+/* ******************************************************************HTML********************************************************************************* */
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <nav>
+            <img src="assits/FES.svg" class="logo" alt="">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#discord">Discord</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <header>
+            <div class="row">
+                
+                <div class="home__d">
+                    <h1>Best place to learn frontend</h1>
+                    <p class="subheader">Go from being a beginner to pro with simplified</p>
+                    <button class="home__button-m">Start Now!</button>
+                </div>
+                <figure>
+                    <img src="assits/laptop.png" alt="Home Page Image">
+                </figure>
+            </div>
+        </header>
+    </section>
+<main>
+    <section id="about"> 
+<h2>About</h2>
+<div class="section--decription">
+
+    <div class="section__decription--wrapper">
+        <p class="section__decription--para">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos fugit recusandae, modi asperiores repellendus excepturi, dignissimos cupiditate animi molestiae dolorem aspernatur iusto aliquam, nobis quae.
+        </p>
+        <p class="section__decription--para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione veniam corporis nihil aliquid repudiandae? Odit non aspernatur reprehenderit ut odio?
+            
+        </p>
+        
+    </div>
+    <figure class="about__img--wrapper">
+        <img src="assits/about.jpg" alt="About section">
+    </figure>
+</div>
+    
+</section>
+
+    <section id="discord">
+        <h2>Discord</h2>
+        <div class="section--decription">
+
+            <figure class="about__img--wrapper">
+                <img src="assits/discord.png" alt="Discord section">
+            </figure>
+            <div class="section__decription--wrapper">
+                <p class="section__decription--para" >
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis fugit quidem repellat optio animi, velit vero expedita voluptas voluptatem.
+                    
+                </p>
+                <p class="section__decription--para" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum error enim deleniti placeat corporis perferendis dolor reprehenderit voluptatem natus dolorem?</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="">
+            <span>Email</span>
+            <input type="email" placeholder="Joe@example.com">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <button>Contact us!</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <img class="footer__logo"   src="assits/FES.svg" alt="Footer tag">
+    <Div class="footer__links">
+
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+        <a class="footer__link" href="">Courses</a>
+    </Div>
+    <p>Copywrite Info</p>
+</footer>
+</body>
+</html>
+
+
+
+
+/*  *********************************************************************** CSS ********************************************************************** */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #cafdff;
+}
+header{
+    background-color: #eadcff;
+    height: calc(100vh -70px);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 72px;
+}
+.subheader{
+    font-size: 36px;
+    margin: 16px 0 24px 0;
+}
+button{
+    background-color: #05c7cf;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+a{
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.logo{
+    width: 300px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    padding-left: 16px;
+}
+.row{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about,
+#discord,
+#contact,
+footer{
+    padding: 48px 0 48px 0;
+
+}
+
+/*ABOUT*/
+
+#about{
+    background-color: #f8ffdc;
+    
+
+}
+h2{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+.section--decription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__img--wrapper{
+ width: 40%;
+ padding: 0 24px;
+}
+img{
+    width: 100%;
+}
+.section__decription--wrapper{
+    width: 60%;
+    padding: 0 24px;
+}
+.section__decription--para{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+
+    
+}
+/* DISCORD*/
+
+#discord{
+    background-color: #ccf2f3;
+}
+
+/*contact*/
+
+#contact{
+    background-color: #dce9ff;
+}
+form{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    margin: o auto;
+    padding: 24px;
+}
+input, textarea{
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+
+}
+
+/*footer*/
+
+footer{
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__logo{
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+.footer__links{
+    min-height: 32px;
+}
+.footer__link{
+    padding: 0 16px;
+}
+@media (max-width: 728px){
+        .row{
+            flex-direction: column;
+        }
+        .home__d{
+            margin-bottom: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .home__button-m{
+            max-width: 240px;
+        }
+        h1{
+            text-align: center;
+            font-size: 48px;
+        }
+        .subheader{
+            text-align: center;
+            font-size: 28px;
+        }
+        ul{
+            display: none;
+        }
+        .section--decription{
+        flex-direction: column;
+        }
+
+        .section__decription--wrapper{
+            width: 100%;
+        }
+        .about__img--wrapper{
+            width: 100%;
+        }
+        #discord  .section--decription{
+            flex-direction: column-reverse;
+        }
+
+        .footer__logo{
+            max-width: 360px;
+            
+        }
+        footer{
+            padding: 48px 24px;
+        }
+        .footer__link{
+            padding: 0 8px;
+            font-size: 17px;
+            
+        }
+        .footer__links{
+            margin-bottom: 24px;
+        }
+    }
+
+
+
+
